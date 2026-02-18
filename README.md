@@ -8,8 +8,8 @@ The project focuses on **clean structure**, **responsive UI**, and a simple but 
 
 ---
 
-## Live Demo
-- !|Demo:|(https://cntzemir.github.io/e-bike-rental-demo/)
+## Demo
+- ➡️ Live: https://cntzemir.github.io/e-bike-rental-demo/
 
 ---
 
