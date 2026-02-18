@@ -27,15 +27,15 @@ It demonstrates a clean repo structure, responsive UI, and a complete **login â†
 
 | Home | Login |
 |---|---|
-| ![Home](docs/screenshots/home.png) | ![Login](docs/screenshots/login.png) |
+| ![Home](docs/screenshots/home.png) | ![About](docs/screenshots/about.png)  |
 
 | Register | Dashboard |
 |---|---|
-| ![Register](docs/screenshots/register.png) | ![Dashboard](docs/screenshots/rent-page.png) |
+| ![Register](docs/screenshots/register.png) | ![Login](docs/screenshots/login.png) |
 
 | Rent Request | About (Scroll-reveal) |
 |---|---|
-| ![Rent Request](docs/screenshots/rent-request.png) | ![About](docs/screenshots/about.png) |
+| ![Rent Request](docs/screenshots/rent-request.png) | ![Dashboard](docs/screenshots/rent-page.png) |
 
 ---
 
