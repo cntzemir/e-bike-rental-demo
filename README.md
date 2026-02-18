@@ -14,10 +14,19 @@ The project focuses on **clean structure**, **responsive UI**, and a simple but 
 ---
 
 ## Screenshots
-Place images under `docs/screenshots/` and update paths below:
-- ![Home](docs/screenshots/home.png)
-- ![Dashboard](docs/screenshots/dashboard.png)
-- ![Rent Modal](docs/screenshots/rent-modal.png)
+Project flow (click to enlarge):
+1. **Home**
+   - ![Home](docs/screenshots/home.png)
+2. **Login**
+   - ![Login](docs/screenshots/login.png)
+3. **Register**
+   - ![Register](docs/screenshots/register.png)
+4. **Rent Page (Dashboard)**
+   - ![Rent Page](docs/screenshots/rent-page.png)
+5. **Rent Request (Modal / Confirmation step)**
+   - ![Rent Request](docs/screenshots/rent-request.png)
+6. **About**
+   - ![About](docs/screenshots/about.png)
 
 ---
 
