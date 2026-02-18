@@ -9,7 +9,7 @@ The project focuses on **clean structure**, **responsive UI**, and a simple but 
 ---
 
 ## Live Demo
-- Demo: **(add your GitHub Pages link here)**
+- !|Demo:|(https://cntzemir.github.io/e-bike-rental-demo/)
 
 ---
 
