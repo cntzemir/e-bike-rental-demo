@@ -1,75 +1,90 @@
 # E-Bike Rental Demo (Static)
 
-A front-end **e-bike rental demo website** built with **HTML / CSS / Vanilla JavaScript**.  
-The project focuses on **clean structure**, **responsive UI**, and a simple but complete **login → dashboard → rent flow**.
+A portfolio-ready **front-end e-bike rental demo** built with **HTML, CSS, and Vanilla JavaScript**.  
+It demonstrates a clean repo structure, responsive UI, and a complete **login → dashboard → rent request** user flow.
 
-> **Scope note (intentional):** Authentication and data are **in-memory only** (a small JS state object).  
-> Refreshing the page resets newly created accounts and requests — this is expected for a static demo.
+**Highlights:** Responsive UI • In-memory auth/state • Modal-based rent request • Scroll-reveal animations
+
+> **Scope (intentional):** This is a **static demo**. Users and requests are stored **in memory** (JS state), so refreshing the page resets newly created data.
 
 ---
 
-## Demo
-- ➡️ Live: https://cntzemir.github.io/e-bike-rental-demo/
+## Live Demo
+- https://cntzemir.github.io/e-bike-rental-demo/
+
+---
+
+## What a Reviewer Can Verify Quickly
+- **Can run instantly** (open the demo link / open `index.html`)
+- **Clear structure** (`assets/`, `docs/`, predictable file naming)
+- **Working flow:** Home → Login/Register → Dashboard → Rent modal → Confirmation page
+- **UX details:** responsive layout, consistent spacing, scroll-reveal animation
+- **Code hygiene:** separation of concerns (HTML/CSS/JS), minimal duplication, readable naming
 
 ---
 
 ## Screenshots
-Project flow (click to enlarge):
-1. **Home**
-   - ![Home](docs/screenshots/home.png)
-2. **Login**
-   - ![Login](docs/screenshots/login.png)
-3. **Register**
-   - ![Register](docs/screenshots/register.png)
-4. **Rent Page (Dashboard)**
-   - ![Rent Page](docs/screenshots/rent-page.png)
-5. **Rent Request (Modal / Confirmation step)**
-   - ![Rent Request](docs/screenshots/rent-request.png)
-6. **About**
-   - ![About](docs/screenshots/about.png)
+
+| Home | Login |
+|---|---|
+| ![Home](docs/screenshots/home.png) | ![Login](docs/screenshots/login.png) |
+
+| Register | Dashboard |
+|---|---|
+| ![Register](docs/screenshots/register.png) | ![Dashboard](docs/screenshots/rent-page.png) |
+
+| Rent Request | About (Scroll-reveal) |
+|---|---|
+| ![Rent Request](docs/screenshots/rent-request.png) | ![About](docs/screenshots/about.png) |
 
 ---
 
-## Key Features
+## Features
 
-### UI & UX
+### UI / UX
 - Responsive layout (grid/cards) with consistent spacing
-- Clear navigation and a simple multi-page flow
-- “About” section **scroll-reveal** animation using `IntersectionObserver`
+- Simple multi-page navigation and clear user journey
+- About section **scroll-reveal** animation using `IntersectionObserver`
 
-### Auth (Demo)
-- Login / Sign up experience
-- Users stored in an **in-memory JS state**
-- Minimal validation:
+### Authentication (Demo)
+- Login + Sign up flow
+- Users stored in an **in-memory** state object (no backend)
+- Validation:
   - email format
   - password length
   - confirm password match
 
 ### Rental Flow
-- Dashboard page with a **Rent modal**
-- Submitting a rent request creates a **request object** in memory
-- Redirects to a **confirmation page** (`request-submitted.html`)
-
-### Code Quality / Maintenance
-- Standardized structure with `assets/` folder
-- Removed unused/broken dependencies and fixed broken links
-- Clear separation: layout (HTML) / styling (CSS) / behavior (JS)
+- Dashboard page includes a **Rent** modal
+- Submitting creates a **request object** in memory
+- Redirects to confirmation page: `request-submitted.html`
 
 ---
 
-## Demo Credentials
-Use the demo account:
+## Demo Account
+Use the included demo user:
 - Email: `renters@gmail.com`
 - Password: `rent123`
 
-Or create a new account via **Sign up** (resets on refresh).
+(Or create a new account via **Sign up** — resets on refresh.)
 
 ---
 
 ## Tech Stack
 - **HTML5**
 - **CSS3** (variables, responsive layout)
-- **Vanilla JavaScript** (DOM events, state management, `IntersectionObserver`)
+- **Vanilla JavaScript** (DOM events, simple state management, `IntersectionObserver`)
+
+---
+
+## Run Locally
+**Option A — Open directly**
+1. Download / clone the repository
+2. Open `index.html` in your browser
+
+**Option B — Local server (recommended)**
+- VS Code → install **Live Server**
+- Right-click `index.html` → **Open with Live Server**
 
 ---
 
@@ -91,4 +106,3 @@ Or create a new account via **Sign up** (resets on refresh).
 │  └─ screenshots/
 ├─ CHANGELOG.md
 └─ LICENSE
-```
