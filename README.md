@@ -82,36 +82,4 @@ Or create a new account via **Sign up** (resets on refresh).
 │  └─ screenshots/
 ├─ CHANGELOG.md
 └─ LICENSE
-
-How to Run Locally
-Option 1 — Open directly
-Open index.html in your browser.
-
-Option 2 — Local server (recommended)
-If you use VS Code:
-
-Install Live Server
-
-Right-click index.html
-
-Select Open with Live Server
-
-Learning Goals (What this project demonstrates)
-Building a small multi-page front-end flow
-
-DOM event handling and predictable UI behavior
-
-Basic state management (single source of truth approach)
-
-Responsive layout with reusable UI patterns
-
-Improving UX with animation triggers (IntersectionObserver)
-
-Roadmap (Optional)
-Persist data with localStorage (keep current as demo by default)
-
-Add better form validation + inline error messages
-
-Add a simple “My Rentals” history section
-
-Add accessibility improvements (focus states, ARIA for modal)
+```
