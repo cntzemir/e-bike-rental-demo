@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>E‑Bike Rent</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+</head>
+<body>
+  <header id="header__home" class="page-hero">
+    <div class="container">
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" aria-label="E-Bike Rent Home">
+          <img src="assets/img/logo.png" alt="E‑Bike Rent" class="main-nav__logo" />
+        </a>
+        <ul class="main-nav__items">
+          <li><a class="nav-link active" href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+          <li><a class="nav-link" href="#about"><i class="fa-solid fa-circle-info"></i><span>About</span></a></li>
+          <li><a class="nav-link" href="models.html#models"><i class="fa-solid fa-store"></i><span>Models</span></a></li>
+          <li><a class="nav-link" href="user_page.html"><i class="fa-solid fa-arrow-right-to-bracket"></i><span>Account</span></a></li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <h1>Fast, easy e‑bike rentals (demo)</h1>
+        <p>
+          A simple front‑end project built by a Computer Science (2nd semester) student.
+          Clean UI, clear structure, and a lightweight “showcase” flow.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="models.html">View models</a>
+          <a class="btn btn-ghost" href="user_page.html">Login / Sign up</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="about" class="page-hero" aria-label="About section">
+    <div class="container section about-wrap">
+      <h2 class="section-title">About</h2>
+      <p class="section-lead section-lead--on-dark">
+        A small, showcase‑style e‑bike rental UI built with HTML/CSS/JavaScript.
+        The focus is not “many features”, but <strong>clean structure</strong>, <strong>readable code</strong>,
+        and a <strong>complete demo flow</strong>.
+      </p>
+
+      <div class="about-grid">
+        <article class="about-feature reveal" style="--delay:0ms">
+          <div class="about-feature__icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3>Goal</h3>
+          <p>
+            Create a modern landing page + models list + a basic account page that looks professional
+            while staying realistic for a 2nd‑semester CS student project.
+          </p>
+        </article>
+
+        <article class="about-feature reveal" style="--delay:90ms">
+          <div class="about-feature__icon"><i class="fa-solid fa-layer-group"></i></div>
+          <h3>What’s inside</h3>
+          <p>
+            Home (this page), Models (cards), Account (login/signup), and a simple “Rent request” modal
+            that redirects to a confirmation page.
+          </p>
+        </article>
+
+        <article class="about-feature reveal" style="--delay:180ms">
+          <div class="about-feature__icon"><i class="fa-solid fa-shield"></i></div>
+          <h3>Demo auth</h3>
+          <p>
+            Sign‑ups are stored only as in‑memory JSON objects. This keeps the project backend‑free:
+            refreshing the page clears the data (expected for a demo).
+          </p>
+        </article>
+      </div>
+
+      <div class="about-split">
+        <div class="about-panel reveal" style="--delay:240ms">
+          <h3>What you can do</h3>
+          <ol class="about-steps">
+            <li>
+              <span class="step-dot">1</span>
+              <div>
+                <strong>Browse models</strong>
+                <p>Open the models page and explore card layouts and responsive design.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-dot">2</span>
+              <div>
+                <strong>Login / Sign up</strong>
+                <p>Try the basic form validation and an in‑memory user list (no database).</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-dot">3</span>
+              <div>
+                <strong>Send a rent request</strong>
+                <p>Pick a model, submit the modal form, and land on the confirmation page.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="about-panel reveal" style="--delay:320ms">
+          <h3>Tech stack</h3>
+          <div class="about-pills" aria-label="Tech stack">
+            <span class="about-pill"><i class="fa-brands fa-html5"></i>HTML</span>
+            <span class="about-pill"><i class="fa-brands fa-css3-alt"></i>CSS</span>
+            <span class="about-pill"><i class="fa-brands fa-js"></i>JavaScript</span>
+            <span class="about-pill"><i class="fa-solid fa-mobile-screen"></i>Responsive UI</span>
+            <span class="about-pill"><i class="fa-solid fa-universal-access"></i>Basic a11y</span>
+          </div>
+
+          <p class="about-note">
+            <i class="fa-solid fa-circle-info"></i>
+            Demo note: accounts are reset on refresh because data is stored only in memory.
+          </p>
+
+          <ul class="about-learnings">
+            <li>Keep folders/paths consistent (GitHub Pages friendly).</li>
+            <li>Prefer grid/flex layouts over fixed margins.</li>
+            <li>Small animations can improve “feel” without adding complexity.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="about-cta reveal" style="--delay:380ms">
+        <a class="btn btn-primary" href="models.html">View models</a>
+        <a class="btn btn-ghost" href="user_page.html">Login / Sign up</a>
+      </div>
+    </div>
+  </section>
+
+<section id="index_second" class="section" aria-label="Quick stats">
+    <div class="container">
+      <h2 class="section-title text-center">Quick stats</h2>
+      <p class="section-lead text-center">Numbers are illustrative (this is a demo UI).</p>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="icon"><i class="fa-regular fa-circle-check"></i></div>
+          <div class="label">Customer satisfaction</div>
+          <div class="value">87%</div>
+        </div>
+        <div class="stat">
+          <div class="icon"><i class="fa-solid fa-person-biking"></i></div>
+          <div class="label">Available models</div>
+          <div class="value">3</div>
+        </div>
+        <div class="stat">
+          <div class="icon"><i class="fa-solid fa-wrench"></i></div>
+          <div class="label">Maintenance</div>
+          <div class="value">Weekly</div>
+        </div>
+        <div class="stat">
+          <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+          <div class="label">Support</div>
+          <div class="value">24/7</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <div class="container footer-content">
+      <p>Copyright © 2025. All rights reserved.</p>
+      <div class="social" aria-label="Social links">
+        <a href="https://github.com/cntzemir" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.youtube.com/@emirrrrw" target="_blank" rel="noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/emirrcanitez/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/emircntz" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/reveal.js"></script>
+</body>
+</html>
