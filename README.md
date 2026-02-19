@@ -70,9 +70,9 @@ Use the included demo user:
 ---
 
 ## Tech Stack
-- [![HTML5](https://img.shields.io/badge/HTML5-0B0F19?style=for-the-badge&logo=html5)](https://developer.mozilla.org/docs/Web/HTML)
-- [![CSS3](https://img.shields.io/badge/CSS3-0B0F19?style=for-the-badge&logo=css3)](https://developer.mozilla.org/docs/Web/CSS) (variables, responsive layout)
-- [![JavaScript](https://img.shields.io/badge/JavaScript-0B0F19?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/docs/Web/JavaScript) (DOM events, simple state management, `IntersectionObserver`)
+- **HTML5**
+- **CSS** (variables, responsive layout)
+- **JavaScript** (DOM events, simple state management, `IntersectionObserver`)
 
 ---
 
