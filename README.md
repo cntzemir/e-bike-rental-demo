@@ -70,28 +70,11 @@ Use the included demo user:
 ---
 
 ## Tech Stack
-- **HTML5**
-- **CSS3** (variables, responsive layout)
-- **Vanilla JavaScript** (DOM events, simple state management, `IntersectionObserver`)
+- [![HTML5](https://img.shields.io/badge/HTML5-0B0F19?style=for-the-badge&logo=html5)](https://developer.mozilla.org/docs/Web/HTML)
+- [![CSS3](https://img.shields.io/badge/CSS3-0B0F19?style=for-the-badge&logo=css3)](https://developer.mozilla.org/docs/Web/CSS) (variables, responsive layout)
+- [![JavaScript](https://img.shields.io/badge/JavaScript-0B0F19?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/docs/Web/JavaScript) (DOM events, simple state management, `IntersectionObserver`)
 
-![Build](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml?style=for-the-badge)
-![License](https://img.shields.io/github/license/USERNAME/REPO?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/USERNAME/REPO?style=for-the-badge)
-
-
-[![React](https://img.shields.io/badge/React-0B0F19?style=for-the-badge&logo=react)](https://react.dev/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-0B0F19?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![HTML5](https://img.shields.io/badge/HTML5-0B0F19?style=for-the-badge&logo=html5)](https://developer.mozilla.org/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-0B0F19?style=for-the-badge&logo=css3)](https://developer.mozilla.org/docs/Web/CSS)
-  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000000&labelColor=0B0F19)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=0B0F19)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=FFFFFF&labelColor=0B0F19)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=FFFFFF&labelColor=0B0F19)
 ---
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Run Locally
 **Option A — Open directly**
